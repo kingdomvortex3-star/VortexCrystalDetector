@@ -1,1 +1,18 @@
+name: VortexCrystalDetector
+version: '${version}'
+main: id.vortexac.crystaldetector.VortexCrystalDetector
+api-version: '26.3'
+folia-supported: true
 
+depend:
+  - VortexAC
+
+authors:
+  - VortexTeam
+
+description: Crystal behavior detector for VortexAC
+
+permissions:
+  vortexcrystal.bypass:
+    description: Bypass crystal detection
+    default: op
