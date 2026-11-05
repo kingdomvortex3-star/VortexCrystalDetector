@@ -1,6 +1,7 @@
 settings:
   enabled: true
-  auto-kick: false
+  debug: true
+  auto-kick: true
   bypass-permission: "vortexcrystal.bypass"
 
 detection:
